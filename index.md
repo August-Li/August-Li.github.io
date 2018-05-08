@@ -14,5 +14,5 @@
 ### 4. [Mysql](https://github.com/August7752/Note/tree/master/Mysql)
 
 {% for post in site.posts %}
-    [{{ post.title }}]("{{ post.url }}")
+    [{{ post.title }}]({{ post.url | absolute_url }}) absolute_url
 {% endfor %}
