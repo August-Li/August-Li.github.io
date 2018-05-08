@@ -14,5 +14,7 @@
 ### 4. [Mysql](https://github.com/August7752/Note/tree/master/Mysql)
 
 {% for post in site.posts %}
-    - [{{ post.title }}](https://august-li.github.io/2018/05/08/database-bak-and-recover/)
+    [{{ post.title }}]({{ post.url }}{% link post.url %})
+    [{{ post.title }}]({{ post.url }}{% link sdfsafsf.md %})
+    [{{ post.title }}](https://github.com/August7752/Note/tree/master/Mysql)
 {% endfor %}
