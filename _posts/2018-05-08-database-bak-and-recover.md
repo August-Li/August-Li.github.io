@@ -1,7 +1,7 @@
 ---
-layout: category
+<!-- layout: category -->
 title: mysql数据库备份及恢复
-category: blog
+<!-- category: blog -->
 ---
 
 # mysql数据库备份及恢复

@@ -12,4 +12,5 @@
 - [Sublime Text 3 Shortcuts Cheatsheet](https://github.com/August7752/Note/blob/master/MacSoft/Sublime%20Text%203%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
 ### 4. [Mysql](https://github.com/August7752/Note/tree/master/Mysql)
+
 [Link to a page]({{ site.baseurl }}{% link news/index.html %})
