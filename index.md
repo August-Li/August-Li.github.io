@@ -12,9 +12,4 @@
 - [Sublime Text 3 Shortcuts Cheatsheet](https://github.com/August7752/Note/blob/master/MacSoft/Sublime%20Text%203%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
 ### 4. [Mysql](https://github.com/August7752/Note/tree/master/Mysql)
-
-{% for post in site.posts %}
-    [{{ post.title }}]({{ post.url }}{% link post.url %})
-    [{{ post.title }}]({{ post.url }}{% link sdfsafsf.md %})
-    [{{ post.title }}](https://github.com/August7752/Note/tree/master/Mysql)
-{% endfor %}
+[Link to a page]({{ site.baseurl }}{% link news/index.html %})
