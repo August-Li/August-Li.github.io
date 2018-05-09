@@ -18,10 +18,9 @@ Why would you use instead of good old `console.log`? Let me show you an example:
 
 ``` javascript
 bank_totals_by_client(bank_info(1, banks), table)
-            .filter(c => c.balance > 25000)
-            .sort((c1, c2) => c1.balance <= c2.balance ? 1 : -1 )
-            .map(c =>
-                 console.log(`${c.id} | ${c.tax_number} (${c.name}) => ${c.balance}`));
+    .filter(c => c.balance > 25000)
+    .sort((c1, c2) => c1.balance <= c2.balance ? 1 : -1 )
+    .map(c => console.log(`${c.id} | ${c.tax_number} (${c.name}) => ${c.balance}`));
 ```
 
 Now, suppose you're getting nothing from this chain (possibly an error).
@@ -38,14 +37,14 @@ therefore, bank_info isn't causing anything.
 We must then move on to the next chain, filter.
 
 ``` javascript
-            .filter(c => tap(c).balance > 25000)
+    .filter(c => tap(c).balance > 25000)
 ```
 
 Are we receiving any c's (clients actually)? If so, then bank_totals_by_client
 works alright. Maybe it's the condition within the filter?
 
 ``` javascript
-            .filter(c => tap(c.balance > 25000))
+    .filter(c => tap(c.balance > 25000))
 ```
 
 Ah! Sweet, we see nothing but `false` printed, so there's no client with >25000,
