@@ -13,4 +13,4 @@
 
 ### 4. [Mysql](https://github.com/August7752/Note/tree/master/Mysql)
 
-[Link to a page]({{ site.baseurl }}{% link news/index.html %})
+2018/05/09/Tapping-for-quick-debugging

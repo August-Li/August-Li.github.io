@@ -1,5 +1,4 @@
 ---
-layout: post
 
 title: Tapping for quick debugging
 tip-number: 65
@@ -8,9 +7,6 @@ tip-username-profile: https://twitter.com/loverajoel
 tip-tldr: This little beastie here is tap. A really useful function for quick-debugging chains of function calls, anonymous functions and, actually, whatever you just want to print.
 tip-md-link: https://github.com/loverajoel/jstips/blob/master/_posts/en/javascript/2017-03-16-tapping-for-quick-debugging.md
 
-categories:
-    - en
-    - javascript
 ---
 
 This little beastie here is tap. A really useful function for quick-debugging
